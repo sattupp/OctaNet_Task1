@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div id="z3">
+            Signup
+        </div>
+
+        <br>
+
+        <div id="x">Already have an account? <a href="login.html">Login</a></div>
+        <br><br>
+
+        <div id="icons">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f icon"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+            </ul>
+        </div>
+
+        <form id="signup-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="agree" required> I agree to <a href="#">Learnify's terms</a> and <a href="#">privacy policy</a>
+                </label>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p class="help-text">For any issues or assistance, please email <a href="#"> <span class="help-email">help@learnify.com</span></a></p>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>

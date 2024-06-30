@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('pexels-marcin-dampc-1684187.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.signup-container {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px 30px; /* Adjust padding-right to make the box bigger from the right */
+  border-radius: 10px;
+  margin: 20px auto 0; /* Adjust margin to shift the box to the top */
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#z3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Reduce the margin between "Signup" heading and the next element */
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Reduce the margin between form groups */
+}
+
+
+#x {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#icons {
+  text-align: center;
+}
+
+#icons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#icons ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.help-text {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.help-email {
+  font-weight: bold;
+  color: #007bff;
+}

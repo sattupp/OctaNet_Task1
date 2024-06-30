@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+    <header>
+        <!-- <img src="mandala.jpg" alt="Settings Icon"> -->
+
+        <h1>Settings</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile Settings</a></li>
+            <li><a href="#notifications">Notification Settings</a></li>
+            <li><a href="#privacy">Privacy Settings</a></li>
+            <!-- Add more settings options as needed -->
+        </ul>
+    </nav>
+
+    <button onclick="settingsButton()">Open Settings</button>
+
+        <section id="profile">
+            <h2>Profile Settings</h2>
+            <form id="profile-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+        
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio"></textarea>
+        
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    
+        <section id="notifications">
+            <h2>Notification Settings</h2>
+            <form id="notification-form">
+                <label for="email-notifications">Email Notifications:</label>
+                <input type="checkbox" id="email-notifications" name="email-notifications">
+                
+                <label for="push-notifications">Push Notifications:</label>
+                <input type="checkbox" id="push-notifications" name="push-notifications">
+                
+                <label for="sms-notifications">SMS Notifications:</label>
+                <input type="checkbox" id="sms-notifications" name="sms-notifications">
+        
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+        
+        <section id="privacy">
+            <h2>Privacy Settings</h2>
+            <form id="privacy-form">
+                <label for="public-profile">Public Profile:</label>
+                <input type="checkbox" id="public-profile" name="public-profile">
+                
+                <label for="hide-email">Hide Email:</label>
+                <input type="checkbox" id="hide-email" name="hide-email">
+                
+                <label for="hide-friends-list">Hide Friends List:</label>
+                <input type="checkbox" id="hide-friends-list" name="hide-friends-list">
+        
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+                
+        <script src="settings.js"></script> <!-- Include your setting.js file -->
+    
+</body>
+
+</html>
